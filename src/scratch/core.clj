@@ -1,6 +1,3 @@
-(ns scratch.core)
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(ns scratch.core
+  (:use [scratch.euler1])
+  (:use [scratch.euler2]))
